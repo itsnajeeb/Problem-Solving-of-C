@@ -11,7 +11,7 @@ int main()
     int a, b;
     printf("Enter a two no\n");
     scanf("%d\n%d", &a, &b);
-    char number[9][6]={"one","two","three","four","five","six","seven","eight","nine"};
+    char number[9]={"one","two","three","four","five","six","seven","eight","nine"};
     int i;
     for (i=a;i<=b;i++){
         if(i>=1 && i<=9)
